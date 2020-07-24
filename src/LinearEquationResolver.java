@@ -19,6 +19,8 @@ public class LinearEquationResolver {
         } else {
             if (b == 0) {
                 System.out.print("The solution is all x!");
+            } else {
+                System.out.print("No solution!");
             }
         }
     }
